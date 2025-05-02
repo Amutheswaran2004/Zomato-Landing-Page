@@ -10,7 +10,7 @@
     background: url('images/heroSectionBackground.png');
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: calc(60vh - 65px);
     color: white;
 }
 
@@ -19,7 +19,8 @@
     justify-content: space-between;
     align-items: center;
     height : 65px;
-    padding: 16px 48px;
+    padding: 16px 50px;
+
 }
 
 .navbar a{
@@ -55,6 +56,28 @@ color: white;
         }
     
 }
+
+.heroContent{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: calc(60vh - 65px);
+}
+
+.heroLogo{
+    width : 200px;
+    height : 40px;
+
+}
+
+.heroTitle{
+    font-size: 30px;
+    font-weight: 350;
+    text-align: center;
+}
+
 
 
 
