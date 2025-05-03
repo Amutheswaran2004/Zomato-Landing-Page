@@ -179,6 +179,60 @@ color: white;
         font-size: 14px;
         color: #666;
     }
+    
+   
+    .CollectionSection h1{
+        font-weight :600;
+    }
+
+ 
+    .CollectionSection .subHeading{
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:1rem;
+        flex-wrap: wrap;
+ 
+       
+    }
+
+    .subHeading span:nth-child(2){
+        color: #ff7e8b;
+        font-size:13px;
+        cursor:pointer;
+    }
+
+    .CollectionSection .CollectionCard  {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:0.5rem;
+        margin-top: 1.25rem;
+       }
+
+    .CollectionCard .card{
+       min-width: 240px;
+       height: 300px;
+       border-radius: 10px;
+       background-size: cover;
+       position: relative;
+       background-position: center;
+    }
+
+    .card1{
+        background-image: url('images/collection1.jpg');
+    }
+    .card2{
+        background-image: url('images/collection2.jpg');
+    }
+    .card3{
+        background-image: url('images/collection3.jpg');
+    }
+    .card4{
+        background-image: url('images/collection4.jpg');
+    }
   
 
 
