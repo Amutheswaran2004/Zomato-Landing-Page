@@ -351,8 +351,22 @@ color: white;
     .inputSection button:hover{
         background-color: rgb(239, 79, 95, 0.8);
     }
+    .DownloadSection h5{
+        font-weight: 400;
+    }
 
-    
+    .DownloadSection .downloadIcons{
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .DownloadSection .downloadIcons img{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+
       
   
 
