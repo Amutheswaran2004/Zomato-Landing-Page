@@ -179,60 +179,91 @@ color: white;
         font-size: 14px;
         color: #666;
     }
+
+    .CollectionSection h1{
+        font-weight: 600;
+        margin-left: 2rem;
+    }
+
+ .CollectionSection .subHeading{
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:2rem;
+ }
+
+ .subHeading span:nth-child(2){
+    font-size: 13px;
+    color:#ff7e8b;
+ }
+
+ .CollectionCard{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;  
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+ }
+
+ .CollectionCard .card{
+    min-width: 240px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    background-size: cover;
+    background-position:center;
+ }
+
+ .CollectionCard .card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;   
+ }
+
+    .Collectioncard1{
+    background: url('images/collection1.jpg');
+     }
+    .Collectioncard2{
+        background: url('images/collection2.jpg');
+    }
+    .Collectioncard3{
+        background: url('images/collection3.jpg');
+    }
+    .Collectioncard4{
+        background: url('images/collection4.jpg');
+    }
+
+    .card .overlay{
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        border-radius: 10px;
+        background: linear-gradient( transparent, black);
+    }
+
+    .card .cardContent{
+        position: absolute;
+        bottom:0;
+        left:0;
+        color: white;
+        padding: 20px 16px;
+    }
+
+    .cardContent h4{
+        font-weight:400;
+        letter-spacing: 0.5px;
+    }
     
    
-    .CollectionSection h1{
-        font-weight :600;
-    }
-
- 
-    .CollectionSection .subHeading{
-        font-size: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap:1rem;
-        flex-wrap: wrap;
- 
-       
-    }
-
-    .subHeading span:nth-child(2){
-        color: #ff7e8b;
-        font-size:13px;
-        cursor:pointer;
-    }
-
-    .CollectionSection .CollectionCard  {
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap:0.5rem;
-        margin-top: 1.25rem;
-       }
-
-    .CollectionCard .card{
-       min-width: 240px;
-       height: 300px;
-       border-radius: 10px;
-       background-size: cover;
-       position: relative;
-       background-position: center;
-    }
-
-    .card1{
-        background-image: url('images/collection1.jpg');
-    }
-    .card2{
-        background-image: url('images/collection2.jpg');
-    }
-    .card3{
-        background-image: url('images/collection3.jpg');
-    }
-    .card4{
-        background-image: url('images/collection4.jpg');
-    }
   
 
 
