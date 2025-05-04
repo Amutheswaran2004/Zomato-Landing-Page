@@ -262,8 +262,98 @@ color: white;
         font-weight:400;
         letter-spacing: 0.5px;
     }
+
+    .GetTheAppSection{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255,251,247);
+        padding:3rem 6rem;
+        width:100%;
+    }
     
-   
+    .GetTheAppSection .semiContainer{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        width: 60%;
+
+    }
+    .GetTheAppSection  .semiContainer .left{
+        flex: 2;
+    }
+
+    .GetTheAppSection .semiContainer img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .GetTheAppSection .semiContainer .right{
+        flex : 3;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .right h1{
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .right p{
+        font-size: 0.8rem;
+        color: #666;
+    }
+    .right .RadiobuttonSection{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .right .RadiobuttonSection div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .right .RadiobuttonSection input[type="radio"]{
+        height: 15px;
+        width: 15px;
+        accent-color: rgb(239, 79, 95);;
+    }
+    
+    .right .inputSection{
+        display: flex;
+        gap:0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .inputSection input ,
+    .inputSection button{
+      padding:10px 12px;
+    }
+    .inputSection input{
+        flex:auto;
+        border: 1.5px solid gray;
+        outline: none;
+        border-radius: 5px;
+    }
+    .inputSection button{
+        border: none;
+        background-color: rgb(239, 79, 95);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .inputSection button:hover{
+        background-color: rgb(239, 79, 95, 0.8);
+    }
+
+    
+      
   
 
 
