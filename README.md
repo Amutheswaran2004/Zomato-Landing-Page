@@ -1,6 +1,6 @@
 # Zomato Landing Page (Cloned)
 
-This is a simple static website built using HTML, CSS . It showcasee the exact cloned version of offial Zomato Landing page
+This is a simple static website built using HTML, CSS . It showcase the exact cloned version of official Zomato Landing page
 
 ## Project Structure 
 <pre> <code> 
