@@ -2,7 +2,8 @@
 
 This is a simple static website built using HTML, CSS . It showcasee the exact cloned version of offial Zomato Landing page
 
-<pre> <code> ## Project Structure 
+## Project Structure 
+<pre> <code> 
  ``` . ├── images/
        ├── index.html
        ├── README.md
