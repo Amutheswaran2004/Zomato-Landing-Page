@@ -2,7 +2,11 @@
 
 This is a simple static website built using HTML, CSS . It showcasee the exact cloned version of offial Zomato Landing page
 
-<pre> <code> ## Project Structure ``` . ├── images/ ├── index.html ├── README.md └── styles.css ``` </code> </pre>
+<pre> <code> ## Project Structure 
+ ``` . ├── images/
+       ├── index.html
+       ├── README.md
+       └── styles.css ``` </code> </pre>
 ## Live Demo
 ### [Click here to view the website](https://6819799a074c220008d20333--spontaneous-toffee-dd846d.netlify.app/)
 ## Features
