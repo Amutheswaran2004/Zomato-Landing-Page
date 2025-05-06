@@ -410,7 +410,7 @@ color: white;
         border-radius: 5px;
         border: 1px solid #e0e0e0;
     }
-    footer{
+    .FooterSection{
         width:100%;
     }
      .FooterSection1{
@@ -453,7 +453,6 @@ color: white;
     .link_container{
         display: flex;
         flex-direction: column;
-
         gap:5px;
 
     }
@@ -464,10 +463,13 @@ color: white;
       letter-spacing: 0.8px;
     }
     .link_container .link{
-        text-decoration:none;
+        display: flex;
+        flex-wrap: wrap; /* this allows items to go to the next line */
+        gap: 1rem;
+        text-decoration: none;
         color: gray;
         font-size: 12.5px;
-        font-weight: 300;
+        
     }
 
     .link_container .link:hover{
@@ -499,38 +501,21 @@ color: white;
         color: gray;
     }
 
-    @media only screen and (max-width: 900px) {
-        .navitation_container{
+   @media only screen and (max-width: 900px){
+    .navigation_container{
             grid-template-columns: repeat(3, 1fr);
-        }
-        .footer__link{
-            text-decoration: none;
-            color: gray;
-            font-size: 12.5px;
-            font-weight: 300;
-        
     }
-    @media only screen and (max-width: 500px) {
-        .navitation_container{
+}
+
+@media only screen and (max-width: 500px){
+    .navigation_container{
             grid-template-columns: repeat(2, 1fr);
-        }
-        .footer__link{
-            text-decoration: none;
-            color: gray;
-            font-size: 12.5px;
-            font-weight: 300;
-        
     }
-    @media only screen and (max-width: 320px) {
-        .navitation_container{
+}
+
+@media only screen and (max-width: 320px){
+    .navigation_container{
             grid-template-columns: repeat(1, 1fr);
-        }
-        .footer__link{
-            text-decoration: none;
-            color: gray;
-            font-size: 12.5px;
-            font-weight: 300;
-        
     }
 }
 
