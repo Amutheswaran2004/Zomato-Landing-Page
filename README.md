@@ -16,5 +16,6 @@ This is a simple static website built using HTML, CSS . It showcasee the exact c
  - Contains branding
  - Promotes mobile app download
 ## Contact
-if you'd like to get in touch, feel free to reach me at:[Linkedin](www.linkedin.com/in/amutheswaran-jd)
+If you'd like to get in touch, feel free to reach me at: [LinkedIn](https://www.linkedin.com/in/amutheswaran-jd)
+
 
