@@ -9,7 +9,7 @@ This is a simple static website built using HTML, CSS . It showcasee the exact c
 ├── README.md
 └── styles.css
 ## Live Demo
-### [Click here to view the website]()
+### [Click here to view the website](https://6819799a074c220008d20333--spontaneous-toffee-dd846d.netlify.app/)
 ## Features
  - Fully responsive layout
  - Navigation bar
